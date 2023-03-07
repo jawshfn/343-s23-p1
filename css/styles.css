@@ -1,0 +1,54 @@
+header {
+    color: #C41E3A;
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+body {
+    font-family: serif;
+    font-size: 20px;
+    background: lightgray;
+    
+}
+section {
+    display: flex;
+    background: darkgray;
+    align-content: center;
+    flex-wrap: wrap;
+}
+li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 100%;
+    padding: 10px; 
+}
+img {
+    width: 100px;
+    margin: 0px;
+    padding: 10px;
+}
+.home {
+    width: 40%;
+    float: right;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+div {
+    margin-left: 10px;
+    padding: 10px;
+}
+nav {
+    padding: 10px;
+}
+form {
+    margin-left: auto;
+    padding: 10px;
+    margin-right: 20px;
+    
+}
+h4 {
+    margin-left: auto;
+    margin-right: 10px;
+ 
+}
