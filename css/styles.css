@@ -1,57 +1,75 @@
-header {
-    color: #32060D;
-    font-family: sans-serif;
-    margin: 10px;
-    padding: 10px;
-}
+/* Global Styles */
 body {
-    font-family: serif;
-    font-size: 20px;
-    background: lightgray;
-    
+    font-family: 'Arial', sans-serif; /* Using a more modern font */
+    font-size: 18px; /* Slightly reduced font size for better readability */
+    background: #f4f4f4; /* Lighter background for a cleaner look */
+    color: #333; /* Darker text color for better contrast */
+    line-height: 1.6; /* Improved line spacing */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
-section {
-    display: flex;
-    background: darkgray;
-    align-content: center;
-    flex-wrap: wrap;
+
+/* Header Styles */
+header {
+    background: #333; /* Dark background for header */
+    color: #fff; /* White text color for header */
+    padding: 20px 10px; /* Increased padding for better spacing */
+    text-align: center; /* Centered header content */
 }
-li {
-    display: inline-block;
-    margin-right: 20px;
-    font-size: 100%;
-    padding: 10px; 
+
+/* Navigation Styles */
+nav ul {
+    padding: 0; /* Remove default padding */
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Flex layout for horizontal alignment */
+    justify-content: center; /* Centered navigation links */
 }
+
+nav li {
+    margin: 0 15px; /* Spacing between navigation links */
+}
+
+nav a {
+    color: #fff; /* White color for navigation links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold font for emphasis */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+nav a:hover {
+    color: #f4f4f4; /* Lighter color on hover */
+}
+
+/* Image Styles */
 img {
-    width: 100px;
-    margin: 0px;
-    padding: 10px;
+    max-width: 100%; /* Responsive images */
+    display: block; /* Block display to remove bottom space */
+    margin: 20px auto; /* Centered images with spacing */
 }
-.home {
-    width: 40%;
-    float: right;
-    margin-right: 20px;
-    margin-left: 20px;
-    
-}
-div {
-    margin-left: 10px;
-    padding: 10px;
-}
-nav {
-    padding: 10px;
-}
+
+/* Form Styles */
 form {
-    margin-left: auto;
-    padding: 10px;
-    margin-right: 20px;
-    
+    display: flex; /* Flex layout for horizontal alignment */
+    justify-content: center; /* Centered form elements */
+    gap: 10px; /* Spacing between form elements */
 }
-h4 {
-    margin-left: auto;
-    margin-right: 10px;
- 
+
+form input[type="text"] {
+    padding: 10px; /* Padding for input fields */
+    border: 1px solid #ccc; /* Border for input fields */
+    border-radius: 5px; /* Rounded corners for input fields */
 }
-a {
-    color: #00006B;
+
+form input[type="submit"] {
+    background: #333; /* Dark background for submit button */
+    color: #fff; /* White text color for submit button */
+    padding: 10px 20px; /* Padding for submit button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for submit button */
+    cursor: pointer; /* Pointer cursor for submit button */
+    transition: background 0.3s; /* Smooth background transition on hover */
+}
+
+form input[type="submit"]:hover {
+    background: #555; /* Lighter background on hover */
 }
