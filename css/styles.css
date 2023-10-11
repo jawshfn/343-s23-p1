@@ -16,7 +16,25 @@ header {
     padding: 20px 10px; /* Increased padding for better spacing */
     text-align: center; /* Centered header content */
 }
+.container {
+    margin: 0 auto; /* Center the container */
+    max-width: 1200px; /* Maximum width of the container */
+    padding: 20px; /* Padding around the content */
+    background-color: #fff; /* White background for the content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted effect */
+}
 
+header img {
+    width: 200px;
+    height: auto;
+}
+.home{
+    max-width: 500px; /* Set the maximum width for the image */
+    width: 100%; /* This will make the image scale down if the viewport is smaller than the image's maximum width */
+    height: auto; /* This ensures the image maintains its aspect ratio */
+    display: block; /* Removes any unwanted space below the image */
+    margin: 20px auto; /* Centers the image horizontally */
+}
 /* Navigation Styles */
 nav ul {
     padding: 0; /* Remove default padding */
@@ -73,3 +91,19 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
     background: #555; /* Lighter background on hover */
 }
+
+.fact-box {
+    width: 250px; /* Width of the box */
+    padding: 10px; /* Padding inside the box */
+    border: 2px dashed #333; /* Dashed border for a fun fact look */
+    background-color: #f9f9f9; /* Light background color */
+    position: fixed; /* Fixed positioning to move with the scroll */
+    top: 20%; /* Center the box vertically */
+    right: 10px; /* Place it on the right side with a 10px gap from the edge */
+    transform: translateY(-50%); /* Centering trick */
+    text-align: center; /* Center the text inside */
+    font-style: italic; /* Italic font for a fun fact look */
+    right: 3%;
+}
+
+
